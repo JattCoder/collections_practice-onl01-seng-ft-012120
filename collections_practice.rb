@@ -34,7 +34,7 @@ def find_a (arr)
 end
 
 def sum_array (arr)
-  totalsum = ""
+  totalsum = 0
   arr.each do |num|
     totalsum += num
   end
