@@ -20,11 +20,17 @@ def reverse_array (arr)
 end
 
 def kesha_maker (arr)
-
+  arr.each do |element|
+    element = element[2] = "$" 
+  end
+  return arr
 end
 
 def find_a (arr)
-
+  arr.delete_if do |element|
+    element[0] != "a"
+  end
+  return arr
 end
 
 def sum_array (arr)
