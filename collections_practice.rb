@@ -42,5 +42,9 @@ def sum_array (arr)
 end
 
 def add_s (arr)
-
+  arr.each do |element|
+    if element != "feet"
+      element << "s"
+    end
+  end
 end
