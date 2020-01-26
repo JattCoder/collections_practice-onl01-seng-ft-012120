@@ -10,11 +10,9 @@ def sort_array_char_count (arr)
   return arr.sort_by(&:length)
 end
 
-def swap_elements (arr,index,destination_index)
-  indexbackup = arr[index]
-  arr[index] = arr[distination_index]
-  arr[destination_index] = indexbackup
-  return arr
+def swap_elements (arr)
+  newarr = []
+  return newarr.push(arr[0],arr[2],arr[1])
 end
 
 def reverse_array (arr)
