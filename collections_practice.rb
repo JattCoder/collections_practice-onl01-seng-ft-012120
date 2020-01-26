@@ -11,7 +11,10 @@ def sort_array_char_count (arr)
 end
 
 def swap_elements (arr,index,destination_index)
-
+  indexbackup = arr[index]
+  arr[index] = arr[distination_index]
+  arr[destination_index] = indexbackup
+  return arr
 end
 
 def reverse_array (arr)
