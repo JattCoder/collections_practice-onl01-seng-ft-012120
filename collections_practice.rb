@@ -47,4 +47,5 @@ def add_s (arr)
       element << "s"
     end
   end
+  return arr
 end
